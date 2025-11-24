@@ -1,4 +1,6 @@
 PayFlex — Razorpay-style Landing Page (Static)
+​​Site:-  https://aditirajput2114.github.io/razorpay_landing_page/
+
 
 A single-page static landing page inspired by Razorpay's clean, modern UI. Built with **vanilla HTML, CSS, and JavaScript** and designed to be responsive across mobile, tablet and desktop.
 
