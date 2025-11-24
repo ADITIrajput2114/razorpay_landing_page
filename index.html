@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PayFlex — Payments, Reimagined</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="A modern payments landing page inspired by Razorpay's design.">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect width="24" height="24" rx="6" fill="url(#g)"/>
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#7C3AED"/>
+              <stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>PayFlex</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#product">Product</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#resources">Resources</a>
+      </nav>
+
+      <div class="nav-ctas">
+        <button class="btn ghost" id="demoBtn">Get a demo</button>
+        <button class="btn primary" id="signupBtn">Sign up</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Payments, invoices, and subscriptions — <span class="accent">made simple</span>.</h1>
+          <p class="lead">Powerful payment APIs, built-in reconciliations, and a developer-friendly dashboard. Trusted by growing businesses worldwide.</p>
+          <div class="hero-ctas">
+            <a class="btn primary large" href="#signup">Start free</a>
+            <button class="btn ghost large" id="watchBtn">Watch demo</button>
+          </div>
+
+          <ul class="kpis">
+            <li><strong>₹0+</strong><span>txn processed</span></li>
+            <li><strong>99.99%</strong><span>uptime</span></li>
+            <li><strong>150+</strong><span>integrations</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <div class="card mock-viewport">
+            <div class="topbar">
+              <div class="dots"><span></span><span></span><span></span></div>
+              <div class="title">Dashboard · Payments</div>
+            </div>
+            <div class="content">
+              <div class="balance">
+                <div>
+                  <div class="small">Available balance</div>
+                  <div class="big">₹ 5,24,780</div>
+                </div>
+                <div class="graph" aria-hidden="true"></div>
+              </div>
+              <div class="transactions">
+                <div class="tx"><span>Order #2319</span><strong>₹2,499</strong></div>
+                <div class="tx"><span>Subscription</span><strong>₹499 / mo</strong></div>
+                <div class="tx"><span>Payout</span><strong>₹1,20,000</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-cards">
+            <div class="feature-chip">Instant Settlements</div>
+            <div class="feature-chip">Smart Routing</div>
+            <div class="feature-chip">Global Payments</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features container" id="features">
+      <h2 class="section-title">Everything you need to accept payments</h2>
+      <p class="section-sub">A single platform to accept, reconcile and disburse payments — with enterprise-grade security.</p>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="icon">🔒</div>
+          <h3>PCI Compliance</h3>
+          <p>Secure tokenization and end-to-end encryption reduce your compliance burden.</p>
+        </article>
+
+        <article class="feature">
+          <div class="icon">⚡</div>
+          <h3>Fast Integrations</h3>
+          <p>SDKs and sample apps to get you from zero to live in under an hour.</p>
+        </article>
+
+        <article class="feature">
+          <div class="icon">📈</div>
+          <h3>Analytics</h3>
+          <p>Built-in dashboards to track growth, churn and more.</p>
+        </article>
+
+        <article class="feature">
+          <div class="icon">🌐</div>
+          <h3>Global Support</h3>
+          <p>Accept payments from 100+ countries with local currency settlement.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Product highlights -->
+    <section class="product container" id="product">
+      <div class="product-grid">
+        <div class="product-left">
+          <h2>Tools for every use-case</h2>
+          <p>From startups to enterprises — modular products that scale with you.</p>
+
+          <ul class="product-list">
+            <li><strong>Payment Links</strong><span>Create and share links in seconds.</span></li>
+            <li><strong>Subscriptions</strong><span>Flexible billing cycles and trials.</span></li>
+            <li><strong>Invoicing</strong><span>Custom invoices and automated reminders.</span></li>
+            <li><strong>Payouts</strong><span>Automate vendor and payroll disbursements.</span></li>
+          </ul>
+
+          <div class="product-ctas">
+            <a class="btn outline" href="#pricing">View plans</a>
+            <a class="btn ghost" href="#resources">Docs & APIs</a>
+          </div>
+        </div>
+
+        <div class="product-right" aria-hidden="true">
+          <div class="phone-mock">
+            <div class="pm-top">Your Account</div>
+            <div class="pm-body">
+              <div class="pm-row">
+                <div>
+                  <div class="small">Recent payment</div>
+                  <div class="med">₹ 3,499</div>
+                </div>
+                <div class="pm-badge">Paid</div>
+              </div>
+              <div class="pm-row">
+                <div>
+                  <div class="small">Subscription</div>
+                  <div class="med">₹ 499 / mo</div>
+                </div>
+                <div class="pm-badge">Active</div>
+              </div>
+              <div class="pm-cta">Create link</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing tease -->
+    <section class="pricing container" id="pricing">
+      <h2 class="section-title">Simple pricing</h2>
+      <p class="section-sub">Transparent fees, predictable billing. Scale with confidence.</p>
+
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3>Starter</h3>
+          <div class="price">Free</div>
+          <p class="desc">Basic features, perfect for testing.</p>
+          <ul>
+            <li>Up to 1,000 transactions</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn ghost small" href="#signup">Get started</a>
+        </div>
+
+        <div class="plan featured">
+          <h3>Growth</h3>
+          <div class="price">₹299 / mo</div>
+          <p class="desc">Best for growing teams.</p>
+          <ul>
+            <li>Priority support</li>
+            <li>Advanced analytics</li>
+          </ul>
+          <a class="btn primary small" href="#signup">Start trial</a>
+        </div>
+
+        <div class="plan">
+          <h3>Enterprise</h3>
+          <div class="price">Custom</div>
+          <p class="desc">Tailored for large businesses.</p>
+          <ul>
+            <li>Dedicated manager</li>
+            <li>SLAs &amp; Onboarding</li>
+          </ul>
+          <a class="btn outline small" href="#contact">Contact sales</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA strip -->
+    <section class="cta-strip">
+      <div class="container cta-inner">
+        <div>
+          <h3>Ready to accept payments?</h3>
+          <p>Start with a free account and integrate in minutes.</p>
+        </div>
+        <div>
+          <a class="btn primary" href="#signup">Create free account</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="col">
+        <a class="logo small" href="#"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="url(#g2)"/></svg><span>PayFlex</span></a>
+        <p>Modern payments infrastructure for businesses.</p>
+      </div>
+
+      <div class="col">
+        <h4>Product</h4>
+        <a href="#product">Payments</a>
+        <a href="#features">Subscriptions</a>
+        <a href="#pricing">Invoicing</a>
+      </div>
+
+      <div class="col">
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#careers">Careers</a>
+        <a href="#blog">Blog</a>
+      </div>
+
+      <div class="col">
+        <h4>Contact</h4>
+        <p>support@payflex.example</p>
+        <p>+91 80 1234 5678</p>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <span>© 2025 PayFlex. All rights reserved.</span>
+      <div class="foot-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#security">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <h3>Watch demo</h3>
+      <p>Demo video placeholder — replace with your hosted video or embed link.</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
